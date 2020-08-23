@@ -1,6 +1,6 @@
 from django.db import models
 from account.models import Teacher
-from ckeditor.fields import RichTextField
+# from ckeditor.fields import RichTextField
 from django.utils.text import slugify
 
 # Create your models here.
@@ -30,7 +30,7 @@ class Modules(models.Model):
     course = models.ForeignKey(Course, on_delete=models.CASCADE)
     title = models.CharField(max_length=500)
     slug = models.SlugField(max_length=200, blank=True)
-    content = RichTextField()
+    content = models.TextField()
     created = models.DateTimeField(auto_now_add=True)
 
     def save(self, *args, **kwargs):
