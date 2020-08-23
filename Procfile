@@ -1,0 +1,1 @@
+web: gunicorn django-react-school.wsgi --log-file -
