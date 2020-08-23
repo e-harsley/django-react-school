@@ -1,1 +1,1 @@
-web: gunicorn django-react-schools.wsgi --log-file -
+web: gunicorn school.wsgi --log-file -
