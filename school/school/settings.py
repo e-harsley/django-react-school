@@ -40,10 +40,10 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'knox',
+    'ckeditor',
     'frontend',
     'account',
     'courses',
-    'ckeditor'
 ]
 
 MIDDLEWARE = [
