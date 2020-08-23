@@ -1,0 +1,40 @@
+@import "./abstracts/variables";
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+html {
+  // This defines what 1rem is
+  // font-size: 62.5%;
+  font-family: "Rubik", sans-serif;
+}
+
+.logo {
+  font-family: "Clicker Script", sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+body {
+  min-height: 100vh;
+  box-sizing: border-box;
+  background-color: $student-background-color;
+}
+
+.ck-blurred
+  .ck
+  .ck-content
+  .ck-editor__editable
+  .ck-rounded-corners
+  .ck-editor__editable_inline {
+  min-height: 400px !important;
+}
+
+// a {
+//   text-decoration: none;
+//   color: inherit;
+// }

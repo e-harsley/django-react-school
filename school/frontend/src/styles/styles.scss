@@ -1,0 +1,11 @@
+@import "./abstracts/variables";
+@import "./base/base";
+
+.ck-blurred
+  .ck
+  .ck-content
+  .ck-editor__editable
+  .ck-rounded-corners
+  .ck-editor__editable_inline {
+  min-height: 400px !important;
+}

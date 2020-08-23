@@ -1,0 +1,10 @@
+@font-face {
+  font-family: "Rubik";
+  src: url("./Rubik-Regular.ttf");
+}
+
+html,
+body {
+  font-family: "Rubik", sans-serif;
+}
+
